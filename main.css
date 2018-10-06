@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(218, 218, 218);
+}
+header{
+    width: 100%;
+    height: 200px;
+    background: rgb(70, 70, 70);
+    position: absolute;
+}
+
+table, td, tr{
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+}
+
+.content{
+    background: inherit;
+    position: relative;
+    top: 10vh;
+    width: 60%;
+    margin: auto;
+    max-width: 1024px;
+    min-width: 900px;
+    height: 2000px;
+}
+
+.text{
+    height: 200px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+#face{
+    height: 400px;
+    background: rgb(56, 33, 97);
+    position: relative;
+}
+
+#upcontact{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background: rgb(41, 41, 41);
+    z-index: 1;
+}
+
+#photo{
+    background: white;
+}
