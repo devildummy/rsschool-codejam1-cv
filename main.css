@@ -1,143 +1,162 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background: url(img/pc1.png);
-    background-size: cover;
-    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
-}
-header{
-    width: 100%;
-    height: 200px;
-    background: rgb(70, 70, 70);
-    position: absolute;
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  background: url(img/pc1.png);
+  background-size: cover;
 }
 
-footer{
-    width: 100%;
-    height: 80px;
-    background: rgb(41, 41, 41);
-    position: relative; 
-    bottom: -81px;
-    text-align: center;
-    color:rgb(218, 218, 218);
-    font-size: 150%;
+header {
+  position: absolute;
+
+  width: 100%;
+  height: 200px;
+
+  background: rgb(70, 70, 70);
 }
 
-table, td, tr{
-    padding: 10px;
-    margin: 10px;
-    border-collapse: collapse;
+footer {
+  position: relative;
+  bottom: -81px;
+
+  width: 100%;
+  height: 80px;
+
+  font-size: 150%;
+  text-align: center;
+  color: rgb(218, 218, 218);
+
+  background: rgb(41, 41, 41);
+}
+
+table,
+td,
+tr {
+  margin: 10px;
+  padding: 10px;
+
+  border-collapse: collapse;
 }
 
 
-a{
-    text-decoration: none;
-    width: 150px;
-    height: 60px;
+a {
+  width: 150px;
+  height: 60px;
+
+  text-decoration: none;
 }
 
-a :hover{
-    width: 60px;
-    height: 60px;
+a :hover {
+  width: 60px;
+  height: 60px;
 }
 
-.content{
-    background: rgb(218, 218, 218);
-    position: relative;
-    top: 10vh;
-    width: 60%;
-    margin: auto;
-    max-width: 1024px;
-    min-width: 900px;
+.content {
+  position: relative;
+  top: 10vh;
+
+  width: 60%;
+  min-width: 900px;
+  max-width: 1024px;
+  margin: auto;
+
+  background: rgb(218, 218, 218);
 }
 
-.contact{
-    padding: 0px 30px;
-    width: 45px;
-    height: 45px;
+.contact {
+  width: 45px;
+  height: 45px;
+  padding: 0 30px;
 }
 
-.text{
-    height: 200px;
-    background: rgb(255, 255, 255);
-    position: relative;
-    box-shadow: 3px 19px 24px -17px #000000;
-    text-align: center;
-    font-size: 200%;
-    color: rgb(23, 23, 105);
-    font-weight: 700;
+.text {
+  position: relative;
+
+  height: 200px;
+
+  font-weight: 700;
+  font-size: 200%;
+  text-align: center;
+  color: rgb(23, 23, 105);
+
+  background: rgb(255, 255, 255);
+  box-shadow: 3px 19px 24px -17px #000000;
 }
 
-#face{
-    background: rgb(48, 48, 104);
-    position: relative;
-    box-shadow: 3px 19px 24px -17px #000000;
+#face {
+  position: relative;
 
+  background: rgb(48, 48, 104);
+  box-shadow: 3px 19px 24px -17px #000000;
 }
 
-#upcontact{
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    background: rgba(41, 41, 41,0.5);
-    z-index: 1;
-    text-align: center;
+#upcontact {
+  position: fixed;
+  z-index: 1;
+
+  width: 100%;
+  height: 70px;
+
+  text-align: center;
+
+  background: rgba(41, 41, 41, 0.5);
 }
 
-#photo{
-    background: rgb(218, 218, 218);
-    width: 50%;
-    height: 500px;
-    text-align: center;
-    background: url('img/myphoto.png'), rgb(48, 48, 104);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
+#photo {
+  width: 50%;
+  height: 500px;
+
+  text-align: center;
+
+  background: rgb(218, 218, 218);
+  background: url("img/myphoto.png"), rgb(48, 48, 104);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
 }
 
-#about{
-    color: rgb(218, 218, 218);
-    font-size: 250%;
-    font-weight: 700;
-
+#about {
+  font-weight: 700;
+  font-size: 250%;
+  color: rgb(218, 218, 218);
 }
 
-.textlink{
-    color:rgb(218, 218, 218);
+.textlink {
+  color: rgb(218, 218, 218);
 }
 
-.textlinkparent :hover{
-    color: rgb(238, 36, 130);
+.textlinkparent :hover {
+  color: rgb(238, 36, 130);
 }
 
-.description{
-    height: 300px;
-    text-align: center;
-    color: rgb(48, 48, 104);
-    font-size: 500%;
-    font-weight: 1000;
-    text-shadow: 3px 1px 2px black;
+.description {
+  height: 300px;
+
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  color: rgb(48, 48, 104);
+  text-shadow: 3px 1px 2px black;
 }
 
-#phone{
-    position: relative;
-    top: 10px;
+#phone {
+  position: relative;
+  top: 10px;
 }
 
-#rights{
-    position: absolute;
-    font-size: 60%;
+#rights {
+  position: absolute;
+
+  font-size: 60%;
 }
 
-#spoiler-trigger{
-    position: absolute;
-    top:0px;
-    left:0px;
-    width: 20px;
-    height: 20px;
-    opacity: 0;
-}
+#aud {
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
 
-#aud{
-    width: 100px;
-    height: 15px;
+  width: 100px;
+  height: 15px;
+
+  opacity: 0;
 }
