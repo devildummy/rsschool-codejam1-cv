@@ -127,3 +127,17 @@ a :hover{
     position: absolute;
     font-size: 60%;
 }
+
+#spoiler-trigger{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+#aud{
+    width: 100px;
+    height: 15px;
+}
